@@ -76,7 +76,7 @@ body * {
   animation: slide-out 0.4s;
 }
 
-#swtich button:hover {
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 .light #switch button {
