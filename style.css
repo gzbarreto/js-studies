@@ -22,9 +22,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center / cover;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  height: 100vh;
 }
 
 body * {
@@ -162,4 +160,14 @@ footer {
 
 footer a {
   color: var(--text-color);
+}
+
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
